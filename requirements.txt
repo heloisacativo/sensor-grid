@@ -1,0 +1,19 @@
+# --- Core da Aplicação (Web & Validação) ---
+fastapi
+uvicorn[standard]
+pydantic
+
+# --- Mensageria (Broker MQTT / Event-Driven) ---
+paho-mqtt
+python-dotenv
+
+# --- Persistência de Dados (DAO / Clean Architecture) ---
+SQLAlchemy
+
+# --- Frontend / Templates (Server-Side Rendering) ---
+jinja2
+python-multipart
+
+# --- Automação e Qualidade (Para o papel do SDET e QAL) ---
+pytest
+httpx
